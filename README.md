@@ -16,4 +16,5 @@ Official website for DANEL / ALL2MD — a leading Israeli medical equipment supp
 - Gynecology
 
 ## Live Site
-[all2md.com](https://www.all2md.com)
+[[all2md.com](https://www.all2md.com)
+](https://guyleor.github.io/DANEL-Webstie/)
