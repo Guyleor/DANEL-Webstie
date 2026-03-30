@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" id="html-root">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DANEL Medical Equipment & Supply</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Heebo:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css?v=11" />
+</head>
+<body>
+
+  <!-- ═══════════════════ NAVBAR ═══════════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="logo" dir="ltr">
+        <img class="danel-img logo-img" src="danel-logo.png" alt="DANEL Medical Equipment & Supply LTD">
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about"        data-i18n="nav_about">About</a></li>
+        <li><a href="#services"     data-i18n="nav_services">Solutions</a></li>
+        <li><a href="#brands"       data-i18n="nav_brands">Brands</a></li>
+        <li><a href="#testimonials" data-i18n="nav_testimonials">Testimonials</a></li>
+        <li><a href="#contact"      data-i18n="nav_contact">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="https://www.all2md.com" target="_blank" rel="noopener" class="nav-store" data-i18n="nav_store">Visit Store ↗</a>
+        <button class="lang-toggle" id="lang-btn" aria-label="Switch language">
+          <span class="lang-flag">🇮🇱</span>
+          <span class="lang-label" id="lang-label">עברית</span>
+        </button>
+        <button class="nav-cta" data-i18n="nav_cta">Get in Touch</button>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════ HERO ═══════════════════ -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="hero-overlay"></div>
+      <div class="hero-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+      </div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge" data-i18n="hero_badge">ENT · Dental · Gynecology</div>
+      <div class="hero-brand-block">
+        <div class="hero-logo-crop">
+          <img class="danel-img hero-logo-img" src="danel-logo.png" alt="DANEL">
+        </div>
+      </div>
+      <h2 class="hero-tagline" data-i18n="hero_tagline">25 Years of Reliability, Expertise &amp; Service.</h2>
+      <p class="hero-sub" data-i18n="hero_sub">
+        ENT, dental and gynecology equipment — selected carefully, delivered reliably, supported long-term.
+      </p>
+      <div class="hero-ctas">
+        <a href="#services" class="btn btn-primary" data-i18n="hero_cta1">Explore Our Solutions</a>
+        <a href="#contact"  class="btn btn-ghost"   data-i18n="hero_cta2">Contact Us</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <div class="scroll-dot"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ ABOUT ═══════════════════ -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="about-inner reveal">
+        <div class="section-label" data-i18n="about_label">Who We Are</div>
+        <h2 class="section-title" data-i18n="about_title">Your Trusted Partner in Medical Equipment</h2>
+        <p class="body-text about-lead" data-i18n="about_p1">
+          ALL2MD supplies specialized medical equipment for ENT, dental and gynecology clinics — combining clinical expertise with direct, responsive service from initial consultation through long-term support.
+        </p>
+
+        <div class="about-pillars about-pillars--row">
+          <div class="pillar">
+            <div class="pillar-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="icon-svg" aria-hidden="true"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="4"/><line x1="12" y1="2" x2="12" y2="6"/><line x1="12" y1="18" x2="12" y2="22"/><line x1="2" y1="12" x2="6" y2="12"/><line x1="18" y1="12" x2="22" y2="12"/></svg></div>
+            <div>
+              <strong data-i18n="pillar1_title">Expert Consultation</strong>
+              <p data-i18n="pillar1_sub">Personalized guidance for every clinic</p>
+            </div>
+          </div>
+          <div class="pillar">
+            <div class="pillar-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="icon-svg" aria-hidden="true"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></div>
+            <div>
+              <strong data-i18n="pillar2_title">Full Service Support</strong>
+              <p data-i18n="pillar2_sub">Installation, training & after-sales care</p>
+            </div>
+          </div>
+          <div class="pillar">
+            <div class="pillar-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="icon-svg" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></div>
+            <div>
+              <strong data-i18n="pillar3_title">Verified Brands Only</strong>
+              <p data-i18n="pillar3_sub">Only verified, top-tier brands</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ SERVICES ═══════════════════ -->
+  <section class="section services bg-light" id="services">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label" data-i18n="services_label">What We Offer</div>
+        <h2 class="section-title" data-i18n="services_title">Comprehensive Medical Solutions</h2>
+        <p class="section-sub" data-i18n="services_sub">We supply specialized equipment across three key medical disciplines, supported by turnkey clinic design and professional training.</p>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card reveal">
+          <div class="service-card-img" style="background-image:url('https://all2md.com/wp-content/uploads/2023/11/jose-vazquez-4SUyx4KQ5Ik-unsplash-e1692286007375-900x860.jpg')"></div>
+          <div class="service-icon-wrap service-dental">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24 6C17 6 10 12 10 20c0 4 1.5 7 3.5 10 2 3 4 7 4.5 12h12c.5-5 2.5-9 4.5-12 2-3 3.5-6 3.5-10 0-8-7-14-14-14z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/><path d="M18 20c0-3.3 2.7-6 6-6s6 2.7 6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3 data-i18n="svc_dental_title">Dental Equipment</h3>
+          <p data-i18n="svc_dental_desc">Complete dental units, chairs, handpieces, microscopes, intraoral scanners, and sterilization systems — everything needed to build an efficient, modern dental practice.</p>
+          <ul class="service-list">
+            <li data-i18n="svc_dental_1">Dental Units & Chairs</li>
+            <li data-i18n="svc_dental_2">Microscopes & Cameras</li>
+            <li data-i18n="svc_dental_3">Intraoral Scanners</li>
+            <li data-i18n="svc_dental_4">Handpieces & Turbines</li>
+            <li data-i18n="svc_dental_5">Sterilization Systems</li>
+          </ul>
+          <a href="#contact" class="service-link" data-i18n="learn_more">Learn More →</a>
+        </div>
+
+        <div class="service-card service-card--featured reveal">
+          <div class="service-card-img service-card-img--dark" style="background-image:url('https://all2md.com/wp-content/uploads/2023/11/getty-images-QRZwYyHsn_w-unsplash.jpg'); background-position: center top;"></div>
+          <div class="service-badge" data-i18n="svc_featured">Most Popular</div>
+          <div class="service-icon-wrap service-ent">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M32 10C27 8 20 10 17 16c-2 4-2 9 1 13 2 2.5 3 5 3 8v1h6v-1c0-3 1-5.5 3-8 3-4 3-9 1-13a10 10 0 0 0-1-6z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/><circle cx="24" cy="24" r="3" stroke="currentColor" stroke-width="2.5"/><path d="M12 22h4M32 22h4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3 data-i18n="svc_ent_title">ENT Equipment</h3>
+          <p data-i18n="svc_ent_desc">Advanced otolaryngology solutions — from flexible and rigid endoscopes to otological microscopes, examination chairs and video systems for ENT specialists.</p>
+          <ul class="service-list">
+            <li data-i18n="svc_ent_1">Flexible & Rigid Endoscopes</li>
+            <li data-i18n="svc_ent_2">Otological Microscopes</li>
+            <li data-i18n="svc_ent_3">ENT Examination Chairs</li>
+            <li data-i18n="svc_ent_4">Video Systems</li>
+            <li data-i18n="svc_ent_5">Diagnostic Instruments</li>
+          </ul>
+          <a href="#contact" class="service-link" data-i18n="learn_more">Learn More →</a>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-card-img" style="background-image:url('https://all2md.com/wp-content/uploads/2023/11/getty-images-KattjrS6CJo-unsplash-900x900.jpg')"></div>
+          <div class="service-icon-wrap service-gyn">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="24" cy="18" r="8" stroke="currentColor" stroke-width="2.5"/><path d="M24 26v8M20 34h8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M16 20c-3 2-5 5-5 9" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M32 20c3 2 5 5 5 9" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3 data-i18n="svc_gyn_title">Gynecology Equipment</h3>
+          <p data-i18n="svc_gyn_desc">Professional gynecological solutions including examination tables, colposcopes, ultrasound equipment and complete clinic setups for obstetrics and gynecology practices.</p>
+          <ul class="service-list">
+            <li data-i18n="svc_gyn_1">Examination Tables</li>
+            <li data-i18n="svc_gyn_2">Colposcopes</li>
+            <li data-i18n="svc_gyn_3">Ultrasound Equipment</li>
+            <li data-i18n="svc_gyn_4">Treatment Instruments</li>
+            <li data-i18n="svc_gyn_5">Complete Clinic Setup</li>
+          </ul>
+          <a href="#contact" class="service-link" data-i18n="learn_more">Learn More →</a>
+        </div>
+
+        <div class="service-card service-card--wide reveal">
+          <div class="service-icon-wrap service-turnkey">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="6" y="12" width="36" height="28" rx="3" stroke="currentColor" stroke-width="2.5"/><path d="M16 12V8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v4" stroke="currentColor" stroke-width="2.5"/><path d="M6 22h36" stroke="currentColor" stroke-width="2.5"/><circle cx="17" cy="32" r="3" stroke="currentColor" stroke-width="2"/><path d="M20 32h11" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <div class="turnkey-content">
+            <h3 data-i18n="svc_turnkey_title">Turnkey Clinic Projects</h3>
+            <p data-i18n="svc_turnkey_desc">From concept to completion — we design and equip entire clinics. Whether you are opening a new practice or renovating an existing one, our team handles equipment selection, layout planning, installation and training for a seamless handover.</p>
+          </div>
+          <a href="#contact" class="service-link" data-i18n="learn_more">Learn More →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ BRANDS ═══════════════════ -->
+  <section class="section brands" id="brands">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label" data-i18n="brands_label">Our Partners</div>
+        <h2 class="section-title" data-i18n="brands_title">World-Class Brands We Represent</h2>
+        <p class="section-sub" data-i18n="brands_sub">We partner exclusively with proven, industry-leading manufacturers to guarantee quality, reliability and long-term support for every product we supply.</p>
+      </div>
+      <div class="brands-track-wrap">
+        <div class="brands-track" id="brands-track">
+          <div class="brand-item"><span class="brand-name">Alltion</span></div>
+          <div class="brand-item"><span class="brand-name">IC Medical</span></div>
+          <div class="brand-item"><span class="brand-name">Heine</span></div>
+          <div class="brand-item"><span class="brand-name">Atmos</span></div>
+          <div class="brand-item"><span class="brand-name">Schiller</span></div>
+          <div class="brand-item"><span class="brand-name">Dentsply</span></div>
+          <div class="brand-item"><span class="brand-name">NSK</span></div>
+          <div class="brand-item"><span class="brand-name">W&H</span></div>
+          <div class="brand-item"><span class="brand-name">KaVo</span></div>
+          <div class="brand-item"><span class="brand-name">Bien-Air</span></div>
+          <!-- duplicated for infinite scroll -->
+          <div class="brand-item"><span class="brand-name">Alltion</span></div>
+          <div class="brand-item"><span class="brand-name">IC Medical</span></div>
+          <div class="brand-item"><span class="brand-name">Heine</span></div>
+          <div class="brand-item"><span class="brand-name">Atmos</span></div>
+          <div class="brand-item"><span class="brand-name">Schiller</span></div>
+          <div class="brand-item"><span class="brand-name">Dentsply</span></div>
+          <div class="brand-item"><span class="brand-name">NSK</span></div>
+          <div class="brand-item"><span class="brand-name">W&H</span></div>
+          <div class="brand-item"><span class="brand-name">KaVo</span></div>
+          <div class="brand-item"><span class="brand-name">Bien-Air</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ TESTIMONIALS ═══════════════════ -->
+  <section class="section testimonials bg-light" id="testimonials">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label" data-i18n="testi_label">What Clients Say</div>
+        <h2 class="section-title" data-i18n="testi_title">Trusted by Medical Professionals</h2>
+      </div>
+      <div class="testi-grid" id="testi-grid">
+
+        <div class="testi-card reveal">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-quote" data-i18n="testi1_quote">"I purchased this set and still wonder how I worked without it for so long. The quality of the images is truly excellent — no lag. The assistance from the ALL2MD team was perfect."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">ES</div>
+            <div>
+              <strong data-i18n="testi1_name">Dr. Ettore Scaini</strong>
+              <span data-i18n="testi1_title">ENT Specialist</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card reveal">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-quote" data-i18n="testi2_quote">"I have been a loyal customer for over 10 years. When I decided to open a completely new, modern ENT clinic, ALL2MD was the obvious choice — full equipment, excellent service and ongoing support."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">ME</div>
+            <div>
+              <strong data-i18n="testi2_name">Dr. Moshe Elam, MD, MHA</strong>
+              <span data-i18n="testi2_title">Senior ENT Specialist</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card testi-card--hidden reveal">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-quote" data-i18n="testi3_quote">"Purchased two dental microscopes with full objectives. Excellent microscopes at a very attractive price. Great technical support and service — a genuine recommendation."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">IV</div>
+            <div>
+              <strong data-i18n="testi3_name">Dr. Ilan Vigder</strong>
+              <span data-i18n="testi3_title">Dental365</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card testi-card--hidden reveal">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-quote" data-i18n="testi4_quote">"Very happy with the fast response and outstanding service ALL2MD provided for an urgent request. Professionalism at the highest level."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">SC</div>
+            <div>
+              <strong data-i18n="testi4_name">Dr. Sonnik Clausen</strong>
+              <span data-i18n="testi4_title">Pyro Optic, Denmark</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="testi-more-wrap">
+        <button class="testi-more-btn" id="testi-more-btn" data-i18n="testi_more">Show More Reviews</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ CONTACT ═══════════════════ -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <div class="section-label" data-i18n="contact_label">Get in Touch</div>
+          <h2 class="section-title" data-i18n="contact_title">Let's Talk About Your Clinic</h2>
+          <p class="body-text" data-i18n="contact_desc">Whether you need a single instrument or a complete clinic setup — our team is here to help. Reach out and we'll respond within one business day.</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="icon-svg" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.15 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.06 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+              <div>
+                <strong data-i18n="contact_phone_label">Phone</strong>
+                <a href="tel:+31108407500" dir="ltr">+31 (0) 10 840 7500</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="icon-svg" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
+              <div>
+                <strong data-i18n="contact_web_label">Website</strong>
+                <a href="https://www.all2md.com" target="_blank" rel="noopener" dir="ltr">www.all2md.com</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="icon-svg" aria-hidden="true"><rect x="1" y="3" width="15" height="13" rx="1"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></div>
+              <div>
+                <strong data-i18n="contact_ship_label">Shipping</strong>
+                <span data-i18n="contact_ship_val">Worldwide · Free express delivery</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="icon-svg" aria-hidden="true"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg></div>
+              <div>
+                <strong data-i18n="contact_ret_label">Returns</strong>
+                <span data-i18n="contact_ret_val">14-day hassle-free returns</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-wrap reveal reveal-right">
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fname" data-i18n="form_fname">First Name</label>
+                <input type="text" id="fname" name="fname" required placeholder="John" />
+              </div>
+              <div class="form-group">
+                <label for="lname" data-i18n="form_lname">Last Name</label>
+                <input type="text" id="lname" name="lname" required placeholder="Smith" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email" data-i18n="form_email">Email Address</label>
+              <input type="email" id="email" name="email" required placeholder="john@clinic.com" />
+            </div>
+            <div class="form-group">
+              <label for="specialty" data-i18n="form_specialty">Specialty</label>
+              <select id="specialty" name="specialty">
+                <option value="" data-i18n="form_spec_placeholder">Select your specialty…</option>
+                <option value="dental" data-i18n="form_spec_dental">Dental</option>
+                <option value="ent" data-i18n="form_spec_ent">ENT</option>
+                <option value="gyn" data-i18n="form_spec_gyn">Gynecology</option>
+                <option value="other" data-i18n="form_spec_other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message" data-i18n="form_message">Message</label>
+              <textarea id="message" name="message" rows="4" placeholder="Tell us about your needs…" data-i18n-ph="form_message_ph"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full" data-i18n="form_submit">Send Message</button>
+            <p class="form-note" data-i18n="form_note">We respond within 1 business day.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ FOOTER ═══════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo logo--light" dir="ltr">
+            <img class="danel-img logo-img logo-img--footer" src="danel-logo.png" alt="DANEL Medical Equipment & Supply LTD">
+          </div>
+          <p class="footer-tagline" data-i18n="footer_tagline">Professional Medical Equipment. Trusted by Specialists.</p>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer_solutions">Solutions</h4>
+          <ul>
+            <li><a href="#services" data-i18n="footer_dental">Dental Equipment</a></li>
+            <li><a href="#services" data-i18n="footer_ent">ENT Equipment</a></li>
+            <li><a href="#services" data-i18n="footer_gyn">Gynecology Equipment</a></li>
+            <li><a href="#services" data-i18n="footer_turnkey">Turnkey Projects</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer_company">Company</h4>
+          <ul>
+            <li><a href="#about" data-i18n="footer_about">About Us</a></li>
+            <li><a href="#brands" data-i18n="footer_brands">Our Brands</a></li>
+            <li><a href="#contact" data-i18n="footer_contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer_contact_head">Contact</h4>
+          <ul>
+            <li><a href="tel:+31108407500" dir="ltr">+31 (0) 10 840 7500</a></li>
+            <li><a href="https://www.all2md.com" target="_blank" rel="noopener" dir="ltr">www.all2md.com</a></li>
+            <li><a href="https://www.all2md.com" target="_blank" rel="noopener" class="footer-store-link" data-i18n="footer_store"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="icon-svg" aria-hidden="true"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg> Visit Our Store</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p data-i18n="footer_copy">© 2025 ALL2MD Medical Equipment. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js?v=6"></script>
+</body>
+</html>
